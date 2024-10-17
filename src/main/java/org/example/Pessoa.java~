@@ -1,0 +1,11 @@
+package org.example;
+
+import java.time.LocalDate;
+
+public class Pessoa {
+
+    private String nome;
+    private String documento;
+    private LocalDate nascimento;
+    private DadosLocalizacao localizacao;
+}
